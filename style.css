@@ -1,0 +1,137 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #F7F7F7;
+}
+.task-list
+{
+    border: 1px solid white;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+#task
+{
+   color: #424242;
+   font-size: 40px;
+   font-family:  Arial, Helvetica, sans-serif;
+   margin: 10px 0 11px 137px;
+
+}
+#list
+{
+    color: #00A5EC;
+}
+
+.Add-task
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 250px;
+    margin-top: 30px;
+}
+.i
+{
+    font-size: 50px;
+    margin-right: 8px;
+    margin-top: -10px;
+    color: #00A5EC;
+}
+a
+{
+    text-decoration: none;
+    font-size: 22px;
+    color: #424242;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    margin: 40px 0px 180px 185px;
+    gap: 18px;
+}
+.card-1
+{
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    width: 352px;
+    height: 360px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    margin-bottom: 16px;
+}
+.card-1:hover{
+   box-shadow: 0 0 20px #dfdfdf; 
+}
+
+#card-content
+{
+    color: #00A5EC;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:34px 0 20px 30px;
+}
+#card-checkbox
+{
+    margin: 25px 0 0 30px ;
+    line-height: 30px;
+}
+.checked
+{
+    color: #e8e7e7;
+    text-decoration: line-through;
+    font-size: 18px;
+}
+input
+{
+    accent-color: #91919199;
+}
+
+.size
+{
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fc
+{
+    color: #424242;
+}
+
+/* media query */
+@media screen and (orientation:portrait) , (orientation:landscape) and (max-width:600px)
+{
+    .task-list
+    {
+        padding: 0px;
+        height: 60px;
+    }
+    #task
+    {
+        font-size: 24px;
+        width: 116px;
+        margin: 16px 230px 15px 12px;
+    }
+    #task-text
+    {
+        display: none;
+    }
+    .i
+    {
+        position: absolute;
+        left: 160px;
+    }
+    .container
+    {
+        margin: 60px 20px 20px 20px;
+    }
+    
+}

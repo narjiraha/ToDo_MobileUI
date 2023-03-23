@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.background
+{
+  opacity: 0.4;
+
+}
+
+.card-container
+{
+    position:absolute;
+    top: 10px;
+    left: 50px;
+    width: 500px;
+    height: 250px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 50px #67676729;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    margin: 184px 433px 320px 433px;
+    opacity: 100%;
+    
+}
+.child-add1
+{
+    margin: 20px 0 15px 20px;
+    width: 500px;
+}
+
+.inputtext
+{
+    width: 300px;
+    height: 40px;
+    background-color: #F7F7F7;
+    border: 1px solid #F7F7F7;
+    margin: 35px 20px 0 20px;
+}
+::placeholder
+{
+    color: #858585;
+    width: 180px;
+    height: 20px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+button
+{
+    background-color: #00A5EC;
+    color: #FFFFFF;
+    width: 160px;
+    height: 48px;
+    border: 1px solid #00A5EC;
+    border-radius: 4px;
+    margin: 25px 20px 41px 300px;
+}
+.btn-task
+{
+    font-size: large;
+    opacity: 90%;
+}
+
+@media screen and (orientation:portrait)  and (max-width:600px)
+{
+    body
+    {
+        width: fit-content;
+    }
+    .card-container
+    {
+        width: 340px;
+        margin: 250px 0 0 -25px;
+    }
+    #text
+    {
+        width: 300px;
+    }
+    button
+    {
+        position: absolute;
+        right: 1px;
+    }
+    .xmark
+    {
+        position: absolute;
+        right: 30px;
+    }
+}
+
+
